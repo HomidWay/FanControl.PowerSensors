@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="9.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FanControl.Plugins">
+      <HintPath>Dlls\FanControl.Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="LibreHardwareMonitorLib">
+      <HintPath>Dlls\LibreHardwareMonitorLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
